@@ -30,6 +30,12 @@ sh 'docker push ${image_name}'
      
     }
   }
+  stage('Run docker container') {
+    steps {
+sh 'docker run -d -it --name python-con1 -p 80:80 ${image_name}'
+     
+    }
+  }
 
 }
 post {
