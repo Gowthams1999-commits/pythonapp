@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull gowtham904/simple-pythonapp:latest
 
 # Run the Docker image as a container
-echo
+docker run -d -it --name mypython-con -p 80:80 gowtham904/simple-pythonapp:latest
