@@ -10,4 +10,4 @@ docker pull $DOCKER_IMAGE
 
 # Run the Docker container
 echo "Starting container: $DOCKER_IMAGE"
-docker run -d --name myapp-container -p 80:80 $DOCKER_IMAGE
+docker run -d --name py-test -p 80:80 $DOCKER_IMAGE
