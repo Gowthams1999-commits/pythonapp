@@ -3,7 +3,7 @@ agent any
 environment {
   git_repo_name = "https://github.com/Gowthams1999-commits/pythonapp.git"
   docker_repo_name = "gowtham904"
-  image_name = "gowtham904/pythonapp:v1"
+  image_name = "gowtham904/pythonapp:v1" 
   docker_repo_password = "Welcome@dockerhub100"
 }
 stages {
