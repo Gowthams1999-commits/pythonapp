@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+ 
 DOCKER_NAME="py-test"
 # Define the Docker image name (make sure to set this to the correct image name)
 DOCKER_IMAGE="gowtham904/simple-pythonapp:latest"
